@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #707070;
+    margin: 0;
+    font-family: Comic, sans-serif;
+  }
+  
+  .card-container {
+    width: 1000px;
+    padding: 100px 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(22, 98, 213, 0.855);
+    text-align: left;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .btn-green { background-color: #047b8d; }
+  .btn-orange { background-color: #bd7b00; }
+  .btn-purple { background-color: #b704b7; }
+  
